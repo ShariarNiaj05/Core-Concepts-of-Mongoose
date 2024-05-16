@@ -1,11 +1,10 @@
 {
   "name": "core-concepts-of-mongoose",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "lint": "eslint src --ignore-pattern .eslintignore -c .ts",
+    "lint": "eslint src --ignore-pattern .eslintignore --ext .ts",
     "lint:fix": "npx eslint src --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -30,5 +29,6 @@
     "globals": "^15.2.0",
     "typescript": "^5.4.5",
     "typescript-eslint": "^7.9.0"
-  }
+  },
+  "description": ""
 }
