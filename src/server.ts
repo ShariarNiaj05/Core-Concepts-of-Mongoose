@@ -8,9 +8,11 @@ async function main() {
 
     app.listen(config.port, () => {
       // console.log(`Example app listening on port no where`);
+      // eslint-disable-next-line no-console
       console.log(`Example app listening on port ${config.port}`);
     });
   } catch (error) {
+    // eslint-disable-next-line no-console
     console.log(error);
   }
 }
