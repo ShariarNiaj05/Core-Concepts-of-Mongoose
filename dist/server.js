@@ -20,10 +20,13 @@ function main() {
         try {
             yield mongoose_1.default.connect(config_1.default.databaseURI);
             app_1.default.listen(config_1.default.port, () => {
+                // console.log(`Example app listening on port no where`);
+                // eslint-disable-next-line no-console
                 console.log(`Example app listening on port ${config_1.default.port}`);
             });
         }
         catch (error) {
+            // eslint-disable-next-line no-console
             console.log(error);
         }
     });
